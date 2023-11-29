@@ -19,4 +19,11 @@ footer {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+  @media (max-width:1000px) {
+  .footer-heading{
+    font-size:14px;
+  }
+  }
+
 </style>

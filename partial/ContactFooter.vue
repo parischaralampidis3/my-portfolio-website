@@ -19,19 +19,20 @@
      width:500px; 
      margin:0 auto;
     text-align:center;
-    font-size:20px;
-    padding-top:30px;
+    font-size:16px;
+    padding-top:10px;
     font-weight: bold;
       color: #d73818;
     font-family:Arial, Helvetica, sans-serif;
   }
   @media (max-width:1000px) {
       .contact-header{
-     width:500px; 
+      text-align:left;
+     width:300px; 
      margin:0 auto;
      margin-bottom:100px;
     text-align:center;
-    font-size:14px;
+    font-size:12px;
     padding-top:20px;
     font-weight: bold;
       color: #d73818;

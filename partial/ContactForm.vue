@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-form" style="margin-top:10vh;">
+  <div class="contact-form">
     <form
       @submit.prevent="sendEmail"
       id="myForm"
@@ -104,14 +104,15 @@ export default {
 </script>
 
 <style scoped>
+
 .contact-form {
   max-width: 100%;
   width: 50%;
   margin: 0 auto;
-  height: 500px;
+  height: 100%;
 }
 .contact-items {
-  margin-top: 10px;
+  margin-top: 0px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -134,13 +135,14 @@ export default {
   max-width: 100%;
   width:50%;
   padding:10px;
-  margin-top:20px;
+  margin-bottom:30px;
+
 }
 
 .contact-button {
   max-width: 100%;
-  margin-left: 260px;
-
+  margin-left: 250px;
+margin-top:50px;
   width: 40%;
   padding: 10px;
   background-color: #308cd8;
@@ -150,10 +152,13 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 1000px) {
+  form{
+  margin-top:10vh;
+  }
   .contact-label {
   font-size: 12px;
-  margin-top: 0px;
-  padding: 10px;
+  margin-top: 1vh;
+  padding: 0px;
 }
 .contact-input{
   max-width: 100%;
@@ -161,18 +166,45 @@ export default {
   padding:10px;
 }
 
-  .contact-button {
+
+.contact-button {
     max-width: 100%;
-    margin-left: 120px;
-    margin-top: 50px;
-    width: 200px;
-    padding: 10px;
+    margin-left: 180px;
+    width:100px;
     background-color: #308cd8;
     color: #fff;
     font-size: 16px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+}
+@media (max-width: 768px) {
+  .contact-button {
+    max-width: 100%;
+    margin-left:100px;
+    width:100px;
+    background-color: #308cd8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+
+@media (max-width: 608px) {
+  .contact-button {
+    max-width: 100%;
+    margin-left:80px;
+    width:100px;
+    background-color: #308cd8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 }
 </style>
 

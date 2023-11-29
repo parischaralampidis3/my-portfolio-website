@@ -13,13 +13,11 @@
   </script>
   
   <style scoped>
-  .header-container{
-    margin-top:10vh;
-  }
+ 
   .contact-header{
     text-align:center;
     font-size:22px;
-    padding-top:40px;
+    padding-top:20px;
     font-weight: bold;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
@@ -30,7 +28,7 @@
     font-size:18px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top:50px;
+    margin-top:10px;
     margin:0 auto;
     text-align:left;
   }
@@ -40,6 +38,7 @@
   .contact-header{
     text-align:center;
     font-size:12px;
+    
   }
     .contact-subheading{
     line-height: 1.5;

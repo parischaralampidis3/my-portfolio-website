@@ -6,17 +6,20 @@
 
         <div style="display: flex; flex-direction: column; height: 60vh">
 
-          <p class="services-text">
+          <h3 class="services-text">
             Unlock the full potential of the digital realm with our expert web
-            development services. We specialize in crafting custom,
+            development services. 
+          </h3>
+          <p class="services-text">
+        We specialize in crafting custom,
             user-friendly websites and web applications tailored to your unique
-            needs.Our team of experienced developers utilizes the latest
+            needs.
+            </p>
+            <p class="services-text">Our team of experienced developers utilizes the latest
             technologies and best practices to ensure your online presence is
             not just functional but exceptional. Whether you're looking to build
             a dynamic e-commerce platform or a cutting-edge web application,
-            we've got you covered.
-          </p>
-        
+            we've got you covered.</p>
         </div>
       </div>
     </div>
@@ -59,8 +62,8 @@ img {
 }
 
 .services-text {
-  width: 65%;
-  line-height: 1.5;
+  width: 50%;
+  line-height: 1.3;
   font-size: 18px;
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
